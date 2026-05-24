@@ -22,7 +22,7 @@ export default function WhyUs() {
         <Reveal>
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-steel">Why Orbit</p>
           <h2 className="mt-3 max-w-2xl font-display text-4xl font-bold text-navy md:text-5xl dark:text-white">
-            The metal doesn&apos;t lie — and neither do we.
+            The metal doesn&apos;t lie  and neither do we.
           </h2>
           <div className="mt-5 inline-flex h-1 w-24 rounded-full bg-steel" />
         </Reveal>
