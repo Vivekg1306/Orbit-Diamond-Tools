@@ -63,8 +63,8 @@ export const products = [
   {
     slug: "multi-point-diamond-dressers",
     name: "Multi Point Diamond Dressers",
-    image: "/products/download.jfif",
-    images: ["/products/download.jfif"],
+    image: "/products/singlePointDiamondDressers/Single Point Diamond Dresser1.png",
+    images: ["/products/singlePointDiamondDressers/Single Point Diamond Dresser1.png"],
     description:
       "Robust multi-point dressers packed with several diamond elements for demanding, high-throughput wheel conditioning tasks.",
     details:
