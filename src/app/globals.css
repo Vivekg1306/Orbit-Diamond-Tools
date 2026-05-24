@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #0a2540;
+}
+
+html.dark {
+  --background: #061a30;
+  --foreground: #ffffff;
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-feature-settings: "ss01", "cv11";
+}
+
+/* Reveal on scroll */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition:
+    opacity 0.9s cubic-bezier(0.2, 0.7, 0.2, 1),
+    transform 0.9s cubic-bezier(0.2, 0.7, 0.2, 1);
+  will-change: opacity, transform;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Steel-blue gradient text accent */
+.text-steel-gradient {
+  background: linear-gradient(90deg, #2563eb 0%, #60a5fa 50%, #2563eb 100%);
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: shimmer 6s linear infinite;
+}
+
+/* Subtle dotted grid */
+.bg-dot-grid {
+  background-image: radial-gradient(rgba(10, 37, 64, 0.08) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+html.dark .bg-dot-grid {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+}
+
+.bg-diamond-grid {
+  background-image:
+    linear-gradient(rgba(10, 37, 64, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(10, 37, 64, 0.05) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+html.dark .bg-diamond-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+}
+
+/* Card hover lift */
+.card-lift {
+  transition:
+    transform 0.5s cubic-bezier(0.2, 0.7, 0.2, 1),
+    box-shadow 0.5s ease,
+    border-color 0.5s ease;
+}
+.card-lift:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 24px 60px -28px rgba(37, 99, 235, 0.35);
+  border-color: rgba(37, 99, 235, 0.4);
+}
+
+/* Nav underline (light theme) */
+.link-underline-light {
+  position: relative;
+}
+.link-underline-light::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 2px;
+  background: #2563eb;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.35s ease;
+}
+.link-underline-light:hover::after {
+  transform: scaleX(1);
+}
+
+/* Footer / dark-section underline */
+.link-underline {
+  position: relative;
+}
+.link-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 1px;
+  background: #60a5fa;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease;
+}
+.link-underline:hover::after {
+  transform: scaleX(1);
+}
