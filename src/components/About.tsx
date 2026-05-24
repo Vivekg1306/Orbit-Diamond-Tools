@@ -21,10 +21,10 @@ export default function About() {
 
         <Reveal delay={120}>
           <p className="text-lg leading-relaxed text-slate700 dark:text-white/80">
-            Orbit Diamond Tools brings together engineers, machinists and metallurgists with decades of
-            collective experience in precision tooling. An above-average rate of investment in new
-            machines and continuous process improvement has positioned us among the leading
-            manufacturers of diamond dressers, blades and lapping compounds.
+            Orbit Diamond Tools is a team of skilled engineers and toolmakers with deep roots in
+            industrial grinding and finishing. Our steady investment in advanced machinery and
+            in-house quality systems has earned us a reputation as a dependable source for
+            diamond dressers, blades and lapping compounds.
           </p>
           <p className="mt-5 leading-relaxed text-slate500 dark:text-white/60">
             Every tool that leaves our floor is graded, indexed and traceable — because grinding is too

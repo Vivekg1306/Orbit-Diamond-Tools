@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import ThemeToggle from "./ThemeToggle";
 
 const links = [
@@ -33,21 +34,14 @@ export default function Navbar() {
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3">
         <a href="#home" className="flex items-center gap-3 group">
-          <span className="relative inline-block h-11 w-11">
-            <span className="absolute inset-0 rotate-45 rounded-sm bg-gradient-to-br from-steel to-steelDark" />
-            <span className="absolute inset-[6px] rotate-45 bg-white dark:bg-navyDeep" />
-            <span className="absolute inset-0 grid place-items-center font-display text-lg font-bold text-steel">
-              O
-            </span>
-          </span>
-          <span className="leading-tight">
-            <span className="block font-display text-[22px] font-bold tracking-tight text-navy dark:text-white">
-              Orbit Diamond Tools
-            </span>
-            <span className="block text-[10.5px] uppercase tracking-[0.22em] text-slate500 dark:text-white/55">
-              Precision Diamond Tooling · Since 1998
-            </span>
-          </span>
+          <Image
+            src="/products/orbit_diamond_logo.jpeg"
+            alt="Orbit Diamond Tools Logo"
+            width={160}
+            height={56}
+            className="h-14 w-auto rounded-sm object-contain"
+            priority
+          />
         </a>
 
         <nav className="hidden lg:flex items-center gap-7 text-[14.5px] font-medium text-slate700 dark:text-white/80">

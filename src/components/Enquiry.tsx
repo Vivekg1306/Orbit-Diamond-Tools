@@ -125,7 +125,7 @@ export default function Enquiry() {
           </p>
 
           <div className="mt-10 space-y-6">
-            <ContactRow label="Address" value="MIDC Industrial Area, Chikhalthana, Aurangabad, Maharashtra" />
+            <ContactRow label="Address" value="1st Floor, Plot No. K-1, Shop No. 109 I Wing, Udyog Bhawan-2, Near By Godrej Industries Ltd, MIDC, Anand Nagar, Ambernath East, 421506" />
             <ContactRow label="Phone" value="+91 99605 19187" />
             <ContactRow label="Email" value="sales@orbitdiamondtools.com" />
           </div>

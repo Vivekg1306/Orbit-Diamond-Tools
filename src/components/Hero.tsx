@@ -4,24 +4,24 @@ import { useEffect, useState } from "react";
 
 const slides = [
   {
-    title: "Precision diamond tooling, engineered for production at scale.",
-    sub: "A group of engineers and metallurgists with decades of industrial experience in precision tool manufacturing.",
+    title: "Diamond tools built for the demands of modern manufacturing.",
+    sub: "Decades of hands-on expertise in grinding, dressing and finishing — delivered from our facility in Maharashtra.",
     tagTop: "YOU NEED THE BEST",
     tagMid: "WHEN YOU NEED TO",
     tagBig: "produce the",
     tagAccent: "best",
   },
   {
-    title: "Sharper edges. Stronger bonds. Longer service life.",
-    sub: "Continuous process improvement and uncompromising QC across two production sites.",
+    title: "Consistent performance. Reliable wear. Proven durability.",
+    sub: "Rigorous quality checks at every stage ensure each tool meets precise dimensional and performance standards.",
     tagTop: "ENGINEERED",
     tagMid: "TO OUTLAST",
     tagBig: "every",
     tagAccent: "cycle",
   },
   {
-    title: "Test it on your machine. Trust the result.",
-    sub: "Our Test & Trust program lets you trial our dressers and blades risk-free, on your own equipment.",
+    title: "Try it on your line. Let the results speak.",
+    sub: "We offer trial runs on your own equipment so you can verify tool life and finish quality before you commit.",
     tagTop: "PROVEN",
     tagMid: "IN THE FIELD",
     tagBig: "by the",
