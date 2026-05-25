@@ -1,3 +1,6 @@
+import Link from "next/link";
+import { products } from "@/lib/seo";
+
 export default function Footer() {
   return (
     <footer id="contact" className="relative overflow-hidden bg-navy text-white">
@@ -19,11 +22,19 @@ export default function Footer() {
           </p>
         </div>
 
-        <FooterCol
-          title="Catalogue"
-          items={["Multipoint Dressers", "MCD Blades", "Single-Point", "Lapping Compounds", "Needle Files"]}
-        />
-        <FooterCol title="Company" items={["About", "Tool Life", "Blogs", "Enquiry", "Contact"]} />
+        <div>
+          <h4 className="text-xs font-bold uppercase tracking-widest text-white/70">Catalogue</h4>
+          <ul className="mt-4 space-y-2 text-sm text-white/75">
+            {products.map((p) => (
+              <li key={p.slug}>
+                <Link href={`/products/${p.slug}`} className="link-underline hover:text-white">
+                  {p.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <FooterCol title="Company" items={["About", "Tool Life", "Enquiry", "Contact"]} />
 
         <div>
           <h4 className="text-xs font-bold uppercase tracking-widest text-white/70">Visit</h4>

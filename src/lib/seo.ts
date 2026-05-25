@@ -63,8 +63,12 @@ export const products = [
   {
     slug: "multi-point-diamond-dressers",
     name: "Multi Point Diamond Dressers",
-    image: "/products/singlePointDiamondDressers/Single Point Diamond Dresser1.png",
-    images: ["/products/singlePointDiamondDressers/Single Point Diamond Dresser1.png"],
+    image: "/products/multipointDiamondDressers/Multi point Diamond DressersTools1.png",
+    images: [
+      "/products/multipointDiamondDressers/Multi point Diamond DressersTools1.png",
+      "/products/multipointDiamondDressers/Multi point Diamond DressersTools2.png",
+      "/products/multipointDiamondDressers/Multi point Diamond DressersTools3.png",
+    ],
     description:
       "Robust multi-point dressers packed with several diamond elements for demanding, high-throughput wheel conditioning tasks.",
     details:
