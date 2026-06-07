@@ -36,7 +36,7 @@ export default function Products() {
               </h2>
               <div className="mt-5 inline-flex h-1 w-24 rounded-full bg-steel" />
             </div>
-            <a href="#enquiry" className="link-underline-light font-semibold text-steel">
+            <a href="#contact-us" className="link-underline-light font-semibold text-steel">
               Request full catalogue →
             </a>
           </div>

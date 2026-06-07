@@ -34,7 +34,7 @@ export default function Footer() {
             ))}
           </ul>
         </div>
-        <FooterCol title="Company" items={["About", "Tool Life", "Enquiry", "Contact"]} />
+        <FooterCol title="Company" items={["About", "Industries", "Contact Us"]} />
 
         <div>
           <h4 className="text-xs font-bold uppercase tracking-widest text-white/70">Visit</h4>

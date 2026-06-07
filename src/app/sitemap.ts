@@ -3,7 +3,7 @@ import { siteConfig } from "@/lib/seo";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
-  const sections = ["", "#about", "#products", "#services", "#enquiry", "#contact"];
+  const sections = ["", "#about", "#products", "#services", "#contact-us", "#contact"];
 
   return sections.map((hash) => ({
     url: `${siteConfig.url}/${hash}`,

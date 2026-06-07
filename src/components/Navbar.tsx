@@ -8,8 +8,8 @@ const links = [
   { href: "#home", label: "Home" },
   { href: "#about", label: "About" },
   { href: "#products", label: "Products" },
-  { href: "#enquiry", label: "Enquiry" },
-  { href: "#services", label: "Increase Your Tool Life" },
+  { href: "#contact-us", label: "Contact Us" },
+  { href: "#services", label: "Industries" },
 ];
 
 export default function Navbar() {

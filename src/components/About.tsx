@@ -2,8 +2,7 @@ import Reveal from "./Reveal";
 
 const stats = [
   { v: "25+", l: "Years of Craft" },
-  { v: "2", l: "Production Sites" },
-  { v: "40+", l: "Countries Served" },
+  { v: "1", l: "Production Site" },
   { v: "100%", l: "QC Inspected" },
 ];
 
@@ -22,16 +21,28 @@ export default function About() {
         <Reveal delay={120}>
           <p className="text-lg leading-relaxed text-slate700 dark:text-white/80">
             Orbit Diamond Tools is a team of skilled engineers and toolmakers with deep roots in
-            industrial grinding and finishing. Our steady investment in advanced machinery and
-            in-house quality systems has earned us a reputation as a dependable source for
-            diamond dressers, blades and lapping compounds.
+            industrial grinding and finishing. Grinding technology is the most important factor in
+            today&apos;s high-tech products — the performance of a grinding wheel depends upon the
+            dressing process, and the dressing tool is the responsible factor.
           </p>
           <p className="mt-5 leading-relaxed text-slate500 dark:text-white/60">
-            Every tool that leaves our floor is graded, indexed and traceable — because grinding is too
-            unforgiving a process for guesswork.
+            We provide dressing solutions to industries as diverse as Automobile, Ceramics, Carbide
+            &amp; HSS Cutting Tools, Glass, Refractories, Machine Tools, Steel, Aerospace, Engineering
+            and many more. Every tool that leaves our floor is graded, indexed and traceable —
+            because grinding is too unforgiving a process for guesswork.
           </p>
 
-          <div className="mt-10 grid grid-cols-2 gap-6 border-t border-slate200 pt-8 dark:border-white/10">
+          <div className="mt-8 flex items-center gap-4 rounded-xl border border-slate200 bg-slate50 p-4 dark:border-white/10 dark:bg-white/5">
+            <div className="grid h-12 w-12 shrink-0 place-items-center rounded-full bg-steel font-display text-lg font-bold text-white">
+              NM
+            </div>
+            <div>
+              <div className="font-display text-sm font-bold text-navy dark:text-white">Mr. Navneet Mishra</div>
+              <div className="text-xs text-slate500 dark:text-white/55">Founder &amp; Managing Director</div>
+            </div>
+          </div>
+
+          <div className="mt-8 grid grid-cols-3 gap-6 border-t border-slate200 pt-8 dark:border-white/10">
             {stats.map((s, i) => (
               <Reveal key={s.l} delay={i * 100}>
                 <div>

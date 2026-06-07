@@ -7,11 +7,15 @@ const points = [
   },
   {
     t: "Graded Diamonds",
-    d: "Every stone is sized and sorted in-house — no surprises in service life, no variance batch-to-batch.",
+    d: "We offer three grades — A, B & C — for all diamond sizes from 0.15 to 5.00 carat. Every stone is sized and sorted in-house for consistent service life.",
   },
   {
     t: "Bonded to Last",
-    d: "Wear-resistant matrices developed over years of field data, tuned to specific grinding applications.",
+    d: "Wear-resistant matrices developed over years of field data, tuned to specific grinding applications. Complete use without maintenance.",
+  },
+  {
+    t: "Made in India",
+    d: "State-of-the-art manufacturing unit with in-house quality systems. Custom tools fabricated to your blue prints and specifications.",
   },
 ];
 
@@ -27,7 +31,7 @@ export default function WhyUs() {
           <div className="mt-5 inline-flex h-1 w-24 rounded-full bg-steel" />
         </Reveal>
 
-        <div className="mt-16 grid gap-8 md:grid-cols-3">
+        <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {points.map((p, i) => (
             <Reveal key={p.t} delay={i * 140}>
               <div className="card-lift h-full rounded-2xl border border-slate200 bg-white p-8 shadow-sm dark:border-white/10 dark:bg-white/5">

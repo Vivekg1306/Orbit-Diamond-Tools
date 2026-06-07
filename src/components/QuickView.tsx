@@ -160,11 +160,11 @@ export default function QuickView({ product, onClose }: QuickViewProps) {
             </p>
             <div className="mt-8">
               <a
-                href="#enquiry"
+                href="#contact-us"
                 onClick={handleClose}
                 className="inline-flex items-center gap-2 rounded-full bg-steel px-6 py-3 text-sm font-semibold text-white shadow transition-all duration-200 hover:bg-steelDark hover:shadow-md active:scale-95"
               >
-                Enquire Now
+                Contact Us
                 <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>

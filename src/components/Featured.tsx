@@ -1,12 +1,14 @@
 import Reveal from "./Reveal";
 
 const benefits = [
-  "No resetting required",
+  "No resetting to redundant",
   "No re-lapping needed",
   "Maintenance-free operation",
-  "Higher output capability",
-  "Extended service life",
-  "Consistent dressing geometry",
+  "Rapid dressing without scoring",
+  "Resistant to shock and impact",
+  "Economical — much cheaper than single point",
+  "Available in 3, 5, 9, 13 or 17 diamond clusters",
+  "Ideal for coarse or rough dressing up to 80 grit",
 ];
 
 export default function Featured() {
@@ -37,9 +39,10 @@ export default function Featured() {
               Multipoint Diamond Dressers
             </h2>
             <p className="mt-5 leading-relaxed text-slate700 dark:text-white/75">
-              Multipoint dressers consist of selected natural diamonds bonded in a wear-resistant matrix.
-              The result is a dressing tool that holds its form across thousands of cycles — predictable,
-              repeatable, and engineered to outlast the wheel it shapes.
+              Cluster type diamond dressers consist of small natural rough diamonds set in a geometric
+              pattern in a single layer and sintered into a special wear-resistant bond. Since more than
+              one diamond comes in contact with the wheel, the work load is divided — and these tools
+              replace large single points while offering significant cost savings.
             </p>
           </Reveal>
 
