@@ -222,7 +222,7 @@ export default function Enquiry() {
                     </svg>
                   }
                   label="Address"
-                  value="1st Floor, Plot No. K-1, Shop No. 109 I Wing, Udyog Bhawan-2, Near By Godrej Industries Ltd, MIDC, Anand Nagar, Ambernath East, 421506"
+                  value="Plot No. K-1, Shop No. 109 I Wing, Udyog Bhawan-2, Near By Godrej Industries Ltd, MIDC, Anand Nagar, Ambernath East, 421506"
                 />
                 <ContactRow
                   icon={
