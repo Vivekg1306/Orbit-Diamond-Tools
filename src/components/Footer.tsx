@@ -55,7 +55,7 @@ export default function Footer() {
               </svg>
             </span>
             <address className="not-italic">
-              <span className="font-semibold text-white">Address:</span> 1st Floor, Plot No. K-1,
+              <span className="font-semibold text-white">Address:</span> Plot No. K-1,
               Shop No. 109 I Wing, Udyog Bhawan-2, Near By Godrej Industries Ltd, MIDC, Anand Nagar,
               Ambernath East, 421506
             </address>
