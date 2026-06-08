@@ -37,7 +37,7 @@ export default function About() {
               NM
             </div>
             <div>
-              <div className="font-display text-sm font-bold text-navy dark:text-white">Mr. Navneet Mishra</div>
+              <div className="font-display text-sm font-bold text-navy dark:text-white">Mr. N. Mishra</div>
               <div className="text-xs text-slate500 dark:text-white/55">Founder &amp; Managing Director</div>
             </div>
           </div>

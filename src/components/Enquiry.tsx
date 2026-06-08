@@ -241,7 +241,7 @@ export default function Enquiry() {
                     </svg>
                   }
                   label="Email"
-                  value="sales@orbitdiamondtools.com"
+                  value="orbitdiamondtools@gmail.com"
                 />
               </div>
 
